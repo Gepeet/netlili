@@ -1,0 +1,50 @@
+.featured{
+    margin: 0px 20px;
+    /* background-color: green; */
+}
+
+@media screen and (min-width: 800px) {
+    .featured{
+        margin: 0 50px;
+    }
+
+  }
+
+
+.featured__top{
+    display: flex;
+    /* background-color: green; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.featured__top>h1{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.featured__top>h5{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.featured__top h5 span{
+    margin-left: 20px;
+}
+
+.featured__container{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+@media screen and (min-width: 800px) {
+    .featured__container{
+        flex-direction: row;
+    }
+
+  }
+
+  

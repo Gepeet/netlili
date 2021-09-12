@@ -1,40 +1,77 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .body{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: antiquewhite;
+  background-color: rgb(241, 238, 232);
 }
 
-
-.card{
-  border-radius: 10px;
-  border:none;
-  background-color: rgba(240, 248, 255, 0.575);
-  /* height: 200px; */
-  width: 200px;
-  box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.521);
-
+nav{
   display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: center;
   padding: 20px 20px;
+  justify-content: space-between;
 }
 
-.btn{
-  background-color: burlywood;
-  border: none;
-  font-weight: bold;
-  border-radius: 5px;
-  font-size: 15px;
-  padding: 10px 30px;
-  /* display: inline-block; */
+@media screen and (min-width: 800px) {
+  nav{
+    padding: 50px 50px;
+  }
 }
 
-.btn:hover{
+
+.carts{
+  display: flex;
+}
+
+.carts > *{
+  margin: 0 5px
+}
+
+.cart__value{
+  width: 22px;
+  height: 22px;
+  background-color: black;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.cart__value > span{
+  
+  color: white;
+}
+
+.hamburger{
+  /* background-color: brown; */
+  align-self: center;
+  margin-left: 15px;
+  width: 22px;
+  height: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 800px) {
+  .hamburger{
+    display: none;
+  }
+}
+
+.hamburger:hover{
   cursor: pointer;
-  background-color: rgba(222, 184, 135, 0.651);
+}
+
+.hamburger>*{
+  height: 3px;
+  width: 100%;
+  background-color: black;
+}
+
+.feat{
+  margin: 70px 0;
 }

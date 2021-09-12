@@ -1,0 +1,21 @@
+.links ul{
+    list-style: none;
+    display: none;
+    flex-direction: row;
+}
+
+.links ul li{
+    margin: 0 10px;
+}
+
+.links ul li:hover{
+   cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+    .links ul{
+        /* list-style: none; */
+        display: flex;
+        /* flex-direction: row; */
+    }
+  }
