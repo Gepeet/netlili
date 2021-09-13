@@ -1,0 +1,43 @@
+.mission__container{
+    background-image: url(../images/kiwihug-ZzHnFYMYBrg-unsplash.jpg) ;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+.mission__message{
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    flex: 1;
+}
+
+.mission__link{
+    flex: 1;
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+@media screen and (min-width: 800px) {
+    .mission__container{
+        padding: 50px 50px;
+    }
+
+    .mission__message{
+        
+        font-weight: 400;
+        font-size: 50px;
+      
+    }
+  }

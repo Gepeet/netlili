@@ -1,0 +1,18 @@
+.ds__arrow{
+    width: max-content;
+}
+
+.ds__arrow>h5{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.ds__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ds__arrow >.arrow__right{
+    margin-left: 15px;
+}

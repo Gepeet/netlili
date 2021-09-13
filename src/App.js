@@ -1,6 +1,7 @@
 import './App.css';
 import Featured from './Component/Featured/Featured';
 import Hero from './Component/Hero/Hero';
+import Mission from './Component/Mission/Mission';
 import Dropdown from './Component/Nav/Dropdown';
 
 
@@ -29,6 +30,7 @@ function App() {
       <div className="feat">
       <Featured/>
       </div>
+      <Mission/>
       
     </div>
   );
