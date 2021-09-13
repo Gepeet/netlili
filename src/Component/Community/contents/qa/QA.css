@@ -1,0 +1,31 @@
+.qa{
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.line2{
+    margin-bottom: 50px;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+}
+
+.qa> ul{
+    list-style: none;
+    /* background-color: yellow; */
+}
+
+.qa ul > li{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.qa ul > li:hover{
+    cursor: pointer;
+    color: gray;
+}

@@ -1,4 +1,5 @@
 import './App.css';
+import Community from './Component/Community/Community';
 import Featured from './Component/Featured/Featured';
 import Hero from './Component/Hero/Hero';
 import Mission from './Component/Mission/Mission';
@@ -33,6 +34,7 @@ function App() {
       </div>
       <Mission/>
       <Stories/>
+      <Community/>
     </div>
   );
 }
