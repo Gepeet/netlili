@@ -4,6 +4,7 @@
     background-color: rgb(246,246,246);
     padding: 30px 30px;
     margin: 20px 0;
+    overflow: hidden;
 }
 .card:hover{
     cursor: pointer;
@@ -75,7 +76,7 @@
 }
 
 .card > img{
-    width: 90%;
+    width: 110%;
     position:relative;
     left: 50%;
     transform: translate(-50%);

@@ -3,6 +3,7 @@ import Featured from './Component/Featured/Featured';
 import Hero from './Component/Hero/Hero';
 import Mission from './Component/Mission/Mission';
 import Dropdown from './Component/Nav/Dropdown';
+import Stories from './Component/Stories/Stories';
 
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
       <Featured/>
       </div>
       <Mission/>
-      
+      <Stories/>
     </div>
   );
 }
