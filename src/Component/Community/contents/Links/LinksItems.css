@@ -1,0 +1,12 @@
+.alink{
+    color: gray;
+    /* background-color: green; */
+    font-size: 13px;
+    margin: 0 5px;
+    text-align: center ;
+}
+
+.alink:hover{
+    cursor: pointer;
+    color: white;
+}

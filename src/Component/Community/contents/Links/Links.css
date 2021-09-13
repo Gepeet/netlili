@@ -1,0 +1,56 @@
+.bottom{
+    margin-top: 100px;
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 800px) {
+    .bottom{
+        position: relative;
+        bottom: -50px;
+    }
+}
+
+.translate{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: max-content; */
+}
+
+.translate>span{
+    color: white;
+    padding-right: 10px;
+    border-right: 1px white solid;
+}
+
+.translate>span:hover{
+    cursor: pointer;
+}
+
+.curency{
+    color: white;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.curency:hover{
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+}
+
+.logo__bot>*{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+}

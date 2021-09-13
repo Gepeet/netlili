@@ -4,6 +4,7 @@ import imageIs from '../images/isaac.jpg'
 import imagets from '../images/brian.jpg'
 import CalltoAction from './contents/cta/CalltoAction'
 import QA from './contents/qa/QA'
+import Links from './contents/Links/Links'
 
 function Community() {
     return (
@@ -22,6 +23,7 @@ function Community() {
                 <CalltoAction/>
                 <QA/>
             </div>
+            <Links/>
         </div>
     )
 }
