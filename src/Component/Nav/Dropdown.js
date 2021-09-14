@@ -6,9 +6,9 @@ function Dropdown() {
         <div>
             <div className="links">
                 <ul>
-                    <li>Products</li>
-                    <li>Stories</li>
-                    <li>Mission</li>
+                    <li className="nav__link">Products</li>
+                    <li className="nav__link">Stories</li>
+                    <li className="nav__link">Mission</li>
                 </ul>
             </div>
             

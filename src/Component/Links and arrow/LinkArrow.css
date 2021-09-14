@@ -1,5 +1,36 @@
 .ds__arrow{
+    --width: max-content;
+    padding: 10px 0;
     width: max-content;
+    position: relative;
+    overflow: hidden;
+}
+.ds__arrow::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    /* width: var(--width); */
+    background-color: bisque;
+    bottom: 0;
+    left: 0%;
+    transform: translateX(-100%);
+    transition: all .5s ease-in;
+    opacity: 0;
+    
+}
+
+.ds__arrow:hover{
+    
+    cursor: pointer;
+    
+}
+
+
+.ds__arrow:hover.ds__arrow::after{
+    opacity: 1;
+    width: 100%;
+    transform: translateX(0);
+    background-color: bisque;
 }
 
 .ds__arrow>h5{
