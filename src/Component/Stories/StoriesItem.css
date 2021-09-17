@@ -36,7 +36,7 @@
       /* background-color: greenyellow; */
       display: flex;
       justify-content: space-between;
-      z-index: 500;
+      z-index: 10;
       
   }
 
@@ -49,7 +49,7 @@
   .story__header > h3 {
     position: relative;
     bottom: 0;
-    z-index: 500 !important;
+    z-index: 10;
     color: white;
     font-size: 20px;
     /* background-color: grey; */
